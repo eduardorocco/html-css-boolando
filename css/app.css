@@ -44,6 +44,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 8px;
 }
 
 .nav-menu {
@@ -55,7 +56,12 @@ html {
 }
 
 .nav-logo {
-	width: 100px;
+	width: 80px;
 }
 
+.nav-icons {
+	display: flex;
+	width: 60px;
+	gap: 10px;
+}
 
