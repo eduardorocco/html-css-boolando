@@ -38,6 +38,11 @@ html {
 	background-color: #fc6c04;
 }
 
+
+.bg-black {
+	background-color: black;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -157,6 +162,25 @@ s {
 	top: 15px;
 	right: 10px;
 }
+
+/* FOOTER */
+
+footer {
+	padding-top: 330px;
+	color: white;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	font-size: 8px;
+}
+
+.footer-container strong {
+	font-size: 10px;
+}
+
+
 
 /* DEBUG RULES*/
 
