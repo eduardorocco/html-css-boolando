@@ -74,26 +74,21 @@ html {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	padding-top: 25px;
 }
 
 .row > * {
-	padding: 0 20px;
 }
 
 .col-33 {
 	width: calc(100% / 3);
+	padding: 10px;
 }
 
 /* DEBUG RULES*/
 
-.row {
-	border: 2px solid red;
-	padding: 16px;
-}
-
 .debug .row > * {
 	border: 2px solid cornflowerblue;
-	padding: 16px;
 	min-height: 200px;
 }
 
