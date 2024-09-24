@@ -22,9 +22,26 @@ img {
 
 /* LAYOUT */
 
+.container {
+	margin: 0 auto;
+	padding: 0 100px;
+}
+
+/* UTILITIES */
+
+.bg-orange {
+	background-color: #fc6c04;
+}
 
 /* NAVBAR */
 
 .navbar {
-    background-color: #fc6c04;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.nav-logo {
+	width: 100px;
 }
