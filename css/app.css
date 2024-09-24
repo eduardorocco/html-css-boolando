@@ -84,7 +84,7 @@ html {
 	width: calc(100% / 3);
 }
 
-/* DEBUG */
+/* DEBUG RULES*/
 
 .row {
 	border: 2px solid red;
@@ -94,6 +94,7 @@ html {
 .debug .row > * {
 	border: 2px solid cornflowerblue;
 	padding: 16px;
+	min-height: 200px;
 }
 
 .img {
@@ -101,12 +102,4 @@ html {
     min-height: 400px;
 }
 
-/* DEBUG WIDTHS HEIGHTS */
-.w-500-h220 {
-    min-width: 450px;
-    min-height: 220px;
-}
 
-.h-200 {
-    min-height: 200px;
-}
