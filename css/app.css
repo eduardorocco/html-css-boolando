@@ -77,12 +77,35 @@ html {
 	padding-top: 25px;
 }
 
-.row > * {
-}
-
 .col-33 {
 	width: calc(100% / 3);
 	padding: 10px;
+}
+
+/* ITEM LAYOUT */
+.tag {
+	display: flex;
+	flex-direction: column;
+	line-height: 14px;
+}
+
+.brand {
+	font-size: 10px;
+}
+
+.item-name {
+	font-size: 12px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.prize {
+	color: red;
+	font-size: 12px;
+}
+
+s {
+	color: black;
 }
 
 /* DEBUG RULES*/
