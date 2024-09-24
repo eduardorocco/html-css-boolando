@@ -101,18 +101,21 @@ html {
 
 .prize {
 	color: red;
-	font-size: 10px;
+	font-size: 8px;
+	font-weight: bold;
 }
+
 
 s {
 	color: black;
+	font-weight: normal;
 }
 
 
 .special-tag {
 	display: flex;
 	color: white;
-	font-size: 8px;
+	font-size: 7px;
 	font-weight: light;
 	position: relative;
 }
@@ -124,7 +127,7 @@ s {
 	background-color: red;
 	position: absolute;
 	bottom: 80px;
-	left: 5px;
+	left: 2px;
 }
 
 .eco-item {
@@ -133,8 +136,18 @@ s {
 	background-color: green;
 	position: absolute;
 	bottom: 80px;
-	left: 32px;
+	left: 26px;
 }
+
+.special-tag :only-child:not(.discount){
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: green;
+	position: absolute;
+	bottom: 80px;
+	left: 2px;
+}
+
 
 .favorite-item {
 	background-color: white;
