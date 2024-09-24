@@ -52,7 +52,6 @@ html {
 	gap: 10px;
 	color: white;
 	font-size: 9px;
-	font-weight: bold;
 }
 
 .nav-logo {
@@ -107,6 +106,34 @@ html {
 
 s {
 	color: black;
+}
+
+
+.special-tag {
+	display: flex;
+	color: white;
+	font-size: 8px;
+	font-weight: light;
+	position: relative;
+}
+
+
+.discount {
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: red;
+	position: absolute;
+	bottom: 80px;
+	left: 5px;
+}
+
+.eco-item {
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color: green;
+	position: absolute;
+	bottom: 80px;
+	left: 32px;
 }
 
 .favorite-item {
