@@ -18,8 +18,9 @@ a {
 	text-decoration: none;
 }
 
-img {
+a > img {
 	width: 100%;
+	display: block;
 }
 
 /* LAYOUT */
@@ -56,16 +57,16 @@ html {
 	display: flex;
 	gap: 10px;
 	color: white;
-	font-size: 9px;
+	font-size: 12px;
 }
 
 .nav-logo {
-	width: 80px;
+	width: 90px;
 }
 
 .nav-icons {
 	display: flex;
-	width: 60px;
+	width: 70px;
 	gap: 10px;
 }
 
@@ -95,18 +96,18 @@ html {
 }
 
 .brand {
-	font-size: 9px;
+	font-size: 11px;
 }
 
 .item-name {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight: bolder;
 	text-transform: uppercase;
 }
 
 .prize {
 	color: red;
-	font-size: 8px;
+	font-size: 12px;
 	font-weight: bold;
 }
 
@@ -120,9 +121,12 @@ s {
 .special-tag {
 	display: flex;
 	color: white;
-	font-size: 7px;
+	font-size: 11px;
 	font-weight: light;
-	position: relative;
+	position: absolute;
+	bottom: 100px;
+	gap: 5px;
+
 }
 
 
@@ -130,39 +134,32 @@ s {
 	padding-left: 2px;
 	padding-right: 2px;
 	background-color: red;
-	position: absolute;
-	bottom: 80px;
-	left: 2px;
+
 }
 
 .eco-item {
 	padding-left: 2px;
 	padding-right: 2px;
 	background-color: green;
-	position: absolute;
-	bottom: 80px;
-	left: 26px;
-}
 
-.special-tag :only-child:not(.discount){
-	padding-left: 2px;
-	padding-right: 2px;
-	background-color: green;
-	position: absolute;
-	bottom: 80px;
-	left: 2px;
 }
 
 
 .favorite-item {
 	background-color: white;
 	padding: 8px;
-	width: 25px;
+	width: 30px;
 	position: absolute;
 	top: 15px;
 	right: 10px;
 }
 
+/* THUMBNAIL */
+
+.thumbnail {
+	width: 100%;
+	display: block;
+}
 /* FOOTER */
 
 footer {
